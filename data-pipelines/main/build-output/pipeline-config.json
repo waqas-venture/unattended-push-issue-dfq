@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "materializeToDatabricks": false,
+  "dashboard": {
+    "name": "KPI Dashboard",
+    "kpiDefinitions": [],
+    "dashboardViews": [
+      {
+        "id": "73638b58-67ab-45ea-9cb5-ef06b744fde0",
+        "name": "Overview",
+        "widgets": []
+      }
+    ]
+  },
+  "dataModel": {
+    "tables": []
+  },
+  "mappingConfig": {
+    "configurationName": "Default Mapping Configuration",
+    "description": "Maps connector data to dashboard model",
+    "portableTransformationSpecs": []
+  }
+}

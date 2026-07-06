@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "materializeToDatabricks": false,
+  "dataMapping": {
+    "configurationName": "Default Mapping Configuration",
+    "description": "Maps connector data to dashboard model"
+  }
+}
