@@ -1,0 +1,14 @@
+{
+  "name": "@datafabriq/pipeline-build",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "DataFabrIQ repo build: assembles the pipeline config, builds every custom view/widget project, and bin-places the dist/ outputs to their committed locations. Run via `npm run build` at the repo root.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node src/build-all.mjs",
+    "assemble": "node src/assemble.mjs"
+  }
+}
