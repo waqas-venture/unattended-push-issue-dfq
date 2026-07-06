@@ -1,0 +1,4 @@
+# Build outputs live in dist/ folders and are bin-placed to their committed
+# locations by `npm run build` — the dist/ intermediates are never committed.
+**/dist/
+**/node_modules/
