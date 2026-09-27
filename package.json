@@ -1,7 +1,0 @@
-{
-  "name": "datafabriq-pipeline",
-  "private": true,
-  "scripts": {
-    "build": "node data-pipelines/main/dashboard/build/pipeline-build/src/build-all.mjs"
-  }
-}
