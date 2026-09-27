@@ -1,0 +1,22 @@
+{
+  "name": "datafabriq-dashboard-view",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Custom dashboard view — a Vite + TypeScript + React mini-app. Author under src/, built by the root `npm run build`, which embeds the built dist/index.js in the pipeline-config artifact the platform reads.",
+  "scripts": {
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
+  }
+}
