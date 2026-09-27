@@ -1,0 +1,12 @@
+{
+  "prompts": {
+    "agentImplementation": "/df-implement-project-item {{projectItemUrl}}"
+  },
+  "defaults": {
+    "branchPrefix": "working/agent",
+    "baseBranch": "draft",
+    "releaseBranch": "draft",
+    "releaseTargetBranch": "main",
+    "testCommand": "npm run build"
+  }
+}
