@@ -1,0 +1,5 @@
+# dist/ folders are build intermediates: each custom view/widget builds to its own dist/index.js,
+# which `npm run build` embeds in the one committed build output,
+# data-pipelines/main/build-output/pipeline-config.json.
+**/dist/
+**/node_modules/

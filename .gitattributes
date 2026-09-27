@@ -1,0 +1,4 @@
+# Normalize all text files to LF line endings in the repository on commit.
+# Git auto-detects binary files (xlsx, images, etc.) and leaves them untouched.
+# Working-tree conversion stays governed by each user's own core.autocrlf.
+* text=auto
