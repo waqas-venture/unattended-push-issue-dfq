@@ -1,0 +1,14 @@
+{
+  "useAutoModeDuringPlan": true,
+  "enableAllProjectMcpServers": true,
+  "permissions": {
+    "allow": [
+      "mcp__datafabriq-mcp-local",
+      "mcp__idea1-mcp-local"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "datafabriq-mcp-local",
+    "idea1-mcp-local"
+  ]
+}

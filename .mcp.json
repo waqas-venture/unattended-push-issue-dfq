@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "datafabriq-mcp-local": {
+      "type": "http",
+      "url": "https://localhost:7215/v1/mcp"
+    },
+    "idea1-mcp-local": {
+      "type": "http",
+      "url": "http://localhost:7216/v1/mcp"
+    }
+  }
+}
