@@ -74,10 +74,11 @@ The platform refreshes these; local changes are overwritten.
 
 ## Working rules
 
-- **Work on the branch that is checked out** — `draft`, or a branch cut from `draft` for a piece of
-  work, such as an idea1 project item's branch. Never make changes on `main`. `.idea1/settings.json`
-  declares `draft` to the idea1 workflow, so an idea1 project item's branch is cut from `draft` and its
-  pull request targets `draft`. Publishing merges `draft` into `main` and makes the change live.
+- **Work on the branch that is checked out** — `draft`, or a work branch for a piece of work, such as an
+  idea1 project item's branch. Never make changes on `main`. `.idea1/settings.json` declares `draft` to
+  the idea1 workflow as the base branch, so a project item's branch is normally cut from `draft` and its
+  pull request targets `draft`; the workflow may cut integration or stacked branches from another work
+  branch. A release merges `draft` into `main` and makes the change live.
 - **Never open pull requests and never create or switch branches.** The idea1 workflow owns branching
   and pull requests.
 - **Merge only with merge commits.** Never rebase or squash: pull with `git pull --no-rebase` and merge
