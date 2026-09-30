@@ -35,8 +35,8 @@ at the **repo root** (the seeded root package.json wires it here) builds everyth
 
 All `dist/` folders are gitignored — the generated declarations included; the artifact is the only
 committed build output. **The platform reads that artifact** — after any source change, run the
-build, review the changes, then commit the changed sources and the artifact together and push to
-`draft`. An unbuilt push leaves the platform serving the previous artifact.
+build, review the changes, then commit the changed sources and the artifact together and push to the
+working branch. An unbuilt push leaves the platform serving the previous artifact.
 
 No dependencies for the kit itself — Node ≥ 20 only (view/widget projects install their own
 toolchains). See the `dashboard-source-code` skill for the file layout and editing rules.
