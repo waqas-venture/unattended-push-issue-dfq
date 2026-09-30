@@ -25,7 +25,7 @@
 // All dist/ folders are gitignored — the generated declarations included; the artifact is the ONLY
 // committed build output. The platform reads it via GitHub, so after any source change: run this
 // build, review the changes, then commit the changed sources and the artifact together and push to
-// `draft`.
+// the working branch.
 //
 // Exits non-zero on the first failure (an invalid object type, a view/widget build error, a
 // folder-root index.js that needs migrating, or an invalid config).
